@@ -40,7 +40,7 @@ h5{
     transform: rotate(-90deg);
     margin: 0 auto;
     margin-top: 130px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     position: relative;
  }
 
@@ -100,7 +100,7 @@ h5{
 	}
 
 	#half{
-		margin-top: 190px;
+		margin-top: 170px;
 	}
 }
 
