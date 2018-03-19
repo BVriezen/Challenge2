@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: Roboto;
+	text-align: center;
+	color: #333;
+	font-weight: lighter;
+	margin-bottom: 30px;
+}
+
+h5{
+	font-size: 22px;
+	font-family: Roboto;
+	color: #333;
+	font-weight: lighter;
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+#zon{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background: linear-gradient(to bottom, red, yellow);
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;
+}
+
+#half-circle {
+    width: 200px;
+    height: 100px; /* as the half of the width */
+    background-color: gold;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    transform: rotate(-90deg);
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 60px;
+ }
+
+.clock{
+    text-align:center;
+    width: auto;
+    height: auto;
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#secondHeading{
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+	font-size: 34px;
+	font-weight: lighter;
+	margin-top: 50px;
+}
+
+#info{
+	background-color: white;
+	width: 380px;
+	height: 300px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 530px){
+	#secondHeading{
+		font-size: 40px;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	#zon{
+		margin-top: 100px;
+	}
+
+	.container{
+		display: grid;
+		grid-template-columns: 50% 50%
+	}
+
+	#info{
+		margin-top: 165px;
+	}
+
+	#secondHeading{
+		font-size: 34px;
+	}
+}
